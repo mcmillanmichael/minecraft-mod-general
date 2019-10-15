@@ -14,13 +14,12 @@ A quick run through of setting up vscode on windows to develop a new minecraft m
 Firstly, take a look at the [docs](https://mcforge.readthedocs.io/en/1.13.x/gettingstarted/)
 
 ### Downloading Minecraft Assets
-1) [Download v1.14.4](https://files.minecraftforge.net/), unzip the files and copy `build.gradle` and `\src\` to the root directory of your repo. 
+1) [Download v1.13.2](https://files.minecraftforge.net/), (avoiding 1.14 because the documentation hasn't been updated yet) unzip the files and copy `build.gradle`, `gradle.properties` and `\src\` to the root directory of your repo. 
 1) Open vscode to the root of your repo
 1) Open a vscode terminal window and run `gradle build`
 
 ### Config Changes
 1) In `build.gradle` find the line that starts `group = `, and replace it with a domain you own in reverse, followed by package identifier e.g. `dev.mikemcmillan.modid`
-1) Comment out the line `apply plugin: 'eclipse'`
 
 ### Build it
 Clean and build: `gradle clean build`
@@ -28,13 +27,12 @@ Clean and build: `gradle clean build`
 ### Run it
 Tip: You can run `gradle tasks` to output all tasks available.  Such as `runserver`:
 
-1) `gradle runserver`  This will download a whole bunch of minecraft assets. ... this failed for me at the :runserver step.  This may or may not be needed.
-1) `gradle runclient` This appears to launch minecraft.  Swish.
+1) `gradle runserver`  This runs a dedicated server. ... this failed for me at the :runserver step.  Will look into this later.
+1) `gradle runclient` This launches minecraft in client mode.  Swish.
 
 ### Start Coding the Mod
-Here's a great resource with examples: 
+Here's a great resource for 1.13.2 with plenty of examples: 
 https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/minecraftbyexample
 
 ### Commit to git
-1) Sign the `\run\eula.txt`
 1) Setup .gitignore to ignore build\run assets, and ensure we're not distributing mojang intellectual property!
