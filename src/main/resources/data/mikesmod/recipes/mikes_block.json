@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "mm ",
+        "mm ",
+        "   "
+    ],
+    "key": {
+        "m": { "item": "mikesmod:mikes_dust" }
+    },
+    "result": {
+        "item": "mikesmod:mikes_block",
+        "count": 1
+    }
+}

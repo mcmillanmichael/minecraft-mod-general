@@ -36,5 +36,7 @@ https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/min
 
 This has some examples for 1.13 and 1.14: https://suppergerrie2.com/category/forge-tutorial/, https://github.com/suppergerrie2/ForgeTutorial
 
+A good resource for the json file structures: https://minecraft.gamepedia.com/Recipe
+
 ### Commit to git
 1) Setup .gitignore to ignore build\run assets, and ensure we're not distributing mojang intellectual property!
