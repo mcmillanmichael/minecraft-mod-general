@@ -1,9 +1,9 @@
 {
     "type": "minecraft:crafting_shaped",
+    "group": "mikesmod",
     "pattern": [
-        "mm ",
-        "mm ",
-        "   "
+        "mm",
+        "mm"
     ],
     "key": {
         "m": { "item": "mikesmod:mikes_dust" }
