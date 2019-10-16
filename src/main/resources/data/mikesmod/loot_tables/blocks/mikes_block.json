@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "name": "mikes_block",
+        "rolls": 4,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "mikesmod:mikes_dust"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ]
+      }
+    ]
+  }
