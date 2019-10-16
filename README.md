@@ -34,5 +34,7 @@ Tip: You can run `gradle tasks` to output all tasks available.  Such as `runserv
 Here's a great resource for 1.13.2 with plenty of examples: 
 https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/minecraftbyexample
 
+This has some examples for 1.13 and 1.14: https://suppergerrie2.com/category/forge-tutorial/, https://github.com/suppergerrie2/ForgeTutorial
+
 ### Commit to git
 1) Setup .gitignore to ignore build\run assets, and ensure we're not distributing mojang intellectual property!
