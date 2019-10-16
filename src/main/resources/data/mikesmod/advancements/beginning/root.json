@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "mikesmod:mikes_dust"
+        },
+        "title": {"translate":"Mikes Mod"},
+        "description": {"translate":"Mikes Mod Innit"}
+    },
+    "criteria": {
+        "mikesmod:mikes_dust": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "mikesmod:mikes_dust"
+                    }
+                ]
+            }
+        }
+    }
+}
