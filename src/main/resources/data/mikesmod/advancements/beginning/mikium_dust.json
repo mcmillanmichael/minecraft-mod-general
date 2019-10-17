@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "mikesmod:mikeium_dust"
+        },
+        "title": {"translate":"Mikeium Dust"},
+        "description": {"translate":"Grind Mikeium into Dust!"}
+    },
+    "parent": "mikesmod:beginning/mikeium_ore",
+    "criteria": {
+        "mikesmod:mikeium_dust": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "mikesmod:mikeium_dust"
+                    }
+                ]
+            }
+        }
+    }
+}

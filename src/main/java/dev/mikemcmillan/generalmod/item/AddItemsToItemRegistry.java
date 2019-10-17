@@ -3,7 +3,7 @@ package dev.mikemcmillan.generalmod.item;
 import dev.mikemcmillan.generalmod.AllObjects;
 import dev.mikemcmillan.generalmod.MikesMod;
 import dev.mikemcmillan.generalmod.block.MikeiumOre;
-import dev.mikemcmillan.generalmod.block.MikesBlock;
+import dev.mikemcmillan.generalmod.block.MikeiumBlock;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -19,7 +19,7 @@ public final class AddItemsToItemRegistry
     public static void registerItems(RegistryEvent.Register<Item> event) {
         event.getRegistry()
             .registerAll(
-                new MikesDust()
+                new MikeiumDust()
             );
         registerBlockItems(event);
     }
@@ -27,7 +27,7 @@ public final class AddItemsToItemRegistry
     private static void registerBlockItems(RegistryEvent.Register<Item> event) {
         event.getRegistry()
             .registerAll(
-                getBlockItem(MikesBlock.itemName, AllObjects.mikes_block),
+                getBlockItem(MikeiumBlock.itemName, AllObjects.mikeium_block),
                 getBlockItem(MikeiumOre.itemName, AllObjects.mikeium_ore)
             );
     }

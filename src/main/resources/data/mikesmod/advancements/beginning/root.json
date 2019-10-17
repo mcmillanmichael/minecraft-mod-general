@@ -1,21 +1,15 @@
 {
     "display": {
         "icon": {
-            "item": "mikesmod:mikes_dust"
+            "item": "minecraft:fire"
         },
+        "background": "minecraft:textures/block/dirt.png",
         "title": {"translate":"Mikes Mod"},
-        "description": {"translate":"Mikes Mod Innit"}
-    },
+        "description": {"translate":"Welcome to Mikes Mod!"}
+    },		
     "criteria": {
-        "mikesmod:mikes_dust": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "mikesmod:mikes_dust"
-                    }
-                ]
-            }
+        "location": {
+            "trigger": "minecraft:location"
         }
     }
 }

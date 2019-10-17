@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "mikesmod:block/mikes_block"
+        "all": "mikesmod:block/mikeium_block"
      }
 }

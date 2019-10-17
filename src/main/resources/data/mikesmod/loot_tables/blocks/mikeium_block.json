@@ -2,12 +2,12 @@
     "type": "minecraft:block",
     "pools": [
       {
-        "name": "mikes_block",
+        "name": "mikeium_block",
         "rolls": 4,
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "mikesmod:mikes_dust"
+            "name": "mikesmod:mikeium_dust"
           }
         ],
         "conditions": [

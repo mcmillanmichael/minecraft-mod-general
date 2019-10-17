@@ -2,10 +2,10 @@
     "type": "minecraft:crafting_shapeless",
     "group": "mikesmod",
     "ingredients": [
-        { "item" : "mikesmod:mikes_block" }
+        { "item" : "mikesmod:mikeium_block" }
     ],
     "result": {
-        "item": "mikesmod:mikes_dust",
+        "item": "mikesmod:mikeium_dust",
         "count": 9
     }
 }

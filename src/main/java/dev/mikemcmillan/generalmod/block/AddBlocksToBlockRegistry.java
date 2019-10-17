@@ -13,7 +13,7 @@ public final class AddBlocksToBlockRegistry
     public static void registerBlocks(RegistryEvent.Register<Block> event) {
         event.getRegistry()
             .registerAll(
-                new MikesBlock(),
+                new MikeiumBlock(),
                 new MikeiumOre()
             );
     }

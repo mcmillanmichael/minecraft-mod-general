@@ -1,19 +1,19 @@
 {
     "display": {
         "icon": {
-            "item": "mikesmod:mikes_block"
+            "item": "mikesmod:mikeium_ore"
         },
-        "title": {"translate":"Make Mikes Block"},
-        "description": {"translate":"Make Mikes Block"}
+        "title": {"translate":"Find Mikeium"},
+        "description": {"translate":"Dig dig dig!"}
     },
     "parent": "mikesmod:beginning/root",	
     "criteria": {
-        "mikesmod:mikes_block": {
+        "mikesmod:mikeium_block": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "mikesmod:mikes_block"
+                        "item": "mikesmod:mikeium_ore"
                     }
                 ]
             }

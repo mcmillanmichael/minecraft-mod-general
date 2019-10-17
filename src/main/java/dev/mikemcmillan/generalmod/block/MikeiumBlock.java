@@ -5,11 +5,11 @@ import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraftforge.common.ToolType;
 
-public class MikesBlock extends Block
+public class MikeiumBlock extends Block
 {
-    public static final String itemName = "mikes_block";
-    
-    public MikesBlock() {
+    public static final String itemName = "mikeium_block";
+
+    public MikeiumBlock() {
         super(Block.Properties
             .create(Material.IRON)
             .hardnessAndResistance(5)
