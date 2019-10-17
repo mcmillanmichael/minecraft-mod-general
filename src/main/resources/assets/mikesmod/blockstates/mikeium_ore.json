@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": [
+            { "model": "mikesmod:block/mikeium_ore" }
+        ]
+    }
+}
