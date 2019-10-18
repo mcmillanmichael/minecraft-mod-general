@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X X",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "mikesmod:mikeium_ingot"
+    }
+  },
+  "result": {
+    "item": "mikesmod:mikeium_chestplate"
+  }
+}

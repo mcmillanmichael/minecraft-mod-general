@@ -20,7 +20,8 @@ public final class AddItemsToItemRegistry
         event.getRegistry()
             .registerAll(
                 new MikeiumIngot(),
-                new MikeiumDust()
+                new MikeiumDust(),
+                new MikeiumChestplate()
             );
         registerBlockItems(event);
     }
