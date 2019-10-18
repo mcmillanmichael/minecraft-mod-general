@@ -5,7 +5,7 @@
         { "item" : "mikesmod:mikeium_block" }
     ],
     "result": {
-        "item": "mikesmod:mikeium_dust",
+        "item": "mikesmod:mikeium_ingot",
         "count": 9
     }
 }

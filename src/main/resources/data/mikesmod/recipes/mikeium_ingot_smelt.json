@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:smelting",
+    "group": "mikesmod",
+    "ingredient": [
+        { "item" : "mikesmod:mikeium_ore" }
+    ],
+    "result": "mikesmod:mikeium_ingot",
+    "experience": 10,
+    "cookingtime": 200
+}

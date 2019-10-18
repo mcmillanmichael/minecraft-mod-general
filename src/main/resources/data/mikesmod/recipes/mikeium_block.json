@@ -7,7 +7,7 @@
         "mmm"
     ],
     "key": {
-        "m": { "item": "mikesmod:mikeium_dust" }
+        "m": { "item": "mikesmod:mikeium_ingot" }
     },
     "result": {
         "item": "mikesmod:mikeium_block",
